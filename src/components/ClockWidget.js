@@ -15,7 +15,7 @@ export default class ClockWidget extends Component {
       () => {
         if (this.state.toggle === true) {
           this.updateTime = setInterval(() => {
-            this.setState((prevState) => ({ currentTime: new Date() }));
+            this.setState({ currentTime: new Date() });
           }, 1000);
         } else {
           clearInterval(this.updateTime);

@@ -5,6 +5,8 @@ import ToggleShowHide from "./components/ToggleShowHide";
 import FontSizer from "./components/FontSizer";
 import TextAligner from "./components/TextAligner";
 import ClockWidget from "./components/ClockWidget";
+import ColorChanger from "./components/ColorChanger";
+import RGBSlider from "./components/RGBSlider";
 
 export default function App() {
   return (
@@ -15,6 +17,8 @@ export default function App() {
       <FontSizer />
       <TextAligner />
       <ClockWidget />
+      <ColorChanger />
+      <RGBSlider />
     </div>
   );
 }
